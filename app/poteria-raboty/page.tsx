@@ -681,8 +681,8 @@ export default function PotteriaRabotyPage() {
             />
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
-            <div className="field-row" style={{ margin: 0, marginTop: "16px" }}>
+          <div className="grid-2col" style={{ marginTop: "16px" }}>
+            <div className="field-row" style={{ margin: 0 }}>
               <label className="label">Дата старта:</label>
               <AutoTextarea
                 value={state.startDate}
@@ -691,7 +691,7 @@ export default function PotteriaRabotyPage() {
                 className="field-input field-input-single"
               />
             </div>
-            <div className="field-row" style={{ margin: 0, marginTop: "16px" }}>
+            <div className="field-row" style={{ margin: 0 }}>
               <label className="label">Как я буду отслеживать прогресс:</label>
               <AutoTextarea
                 value={state.progressTracking}
@@ -714,7 +714,7 @@ export default function PotteriaRabotyPage() {
               </div>
             </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+            <div className="grid-2col">
               <WeekCard
                 n={1}
                 hint="Сфокусироваться и навести порядок в действиях, провести аудит, не рассылать резюме хаотично."
@@ -801,7 +801,7 @@ export default function PotteriaRabotyPage() {
             </div>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "14px" }}>
+          <div className="grid-2col">
             {state.days.map((day, i) => (
               <DayCard key={i} n={i + 1} day={day} onChange={(key, v) => setDay(i, key, v)} />
             ))}
