@@ -800,13 +800,13 @@ export default function PotteriaRabotyPage() {
             </div>
           </div>
 
-          <div className="quote-card mt-10" style={{ borderColor: "var(--c-gold-soft)", background: "var(--c-purple-soft)" }}>
+          <div className="quote-card mt-10" style={{ background: "var(--c-purple-soft)" }}>
             <div className="flex items-start gap-3">
               <ArrowBullet />
               <div>
-                Этот чек-лист - первый шаг. Чтобы глубже разобраться в своих стратегиях мышления
-                и выстроить взрослую опору в жизни и деньгах, читайте книгу Натальи Батаевой
-                «На Личность идёт НаЛичность».
+                Этот чек-лист - один из инструментов работы с ситуацией потери работы. Чтобы глубже
+                разобраться в своих жизненных сценариях и способах реагирования, читайте книгу
+                Натальи Батаевой «На Личность идёт НаЛичность» или проходите онлайн-курс.
               </div>
             </div>
           </div>
